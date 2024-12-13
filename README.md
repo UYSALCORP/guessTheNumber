@@ -37,4 +37,4 @@ Build a Find the Number Game (Between 0 to 100)
 
 ## Live Page
 
-[Click for live page](linki ekleyin)
+[Click for live page](https://uysalcorp.github.io/guessTheNumber/))
