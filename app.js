@@ -1,5 +1,5 @@
 //! 1- Bilgisayar sayı tutsun.
-const rastgeleSayi = Math.ceil((Math.random()*19)+1)
+const rastgeleSayi = Math.ceil((Math.random()*99)+1)
 console.log(rastgeleSayi);
 
 //! 2- Variables
@@ -67,7 +67,7 @@ let topScore = 0;
 
 //! 4- Again Butonu
 again.addEventListener("click", ()=>{
-    const rastgeleSayi = Math.ceil((Math.random()*19)+1)
+    const rastgeleSayi = Math.ceil((Math.random()*99)+1)
     body.style.backgroundColor = "#407a8a"
     message.textContent = "Oyun Yeniden Başlatılıyor..."
     number.textContent = "?"
