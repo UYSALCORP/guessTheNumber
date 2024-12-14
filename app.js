@@ -20,7 +20,7 @@ let topScore = 0;
         const tahmin = guess.value;
 
         //! b- Tahmin Durumları :
-        //* Alt-Üst Sınırı (1-20)
+        //* Alt-Üst Sınırı (1-100)
         //* Tahmin yanlışsa Arttır-Azalt
         //* Tahmin doğru (===)
         //* Tahmin hakki bitebilir.
@@ -30,8 +30,8 @@ let topScore = 0;
             message.textContent = "Lütfen bir tahmin giriniz!"
             message.style.fontSize = "1rem";
         } //! Alt-Üst Sınırı
-        else if (tahmin<0 || tahmin>20) {
-            message.textContent = "1-20 Arasında bir sayı giriniz!"
+        else if (tahmin<0 || tahmin>100) {
+            message.textContent = "1-100 Arasında bir sayı giriniz!"
             message.style.fontSize = "1rem";
         } //! Tahmin doğru
         else if (tahmin==rastgeleSayi){
